@@ -1,0 +1,16 @@
+input::placeholder {
+    font-size: 0.75rem; /* Equivalent to text-xs in Tailwind */
+  }
+  
+  input.placeholder-lg::placeholder {
+    font-size: 1.125rem; /* Equivalent to text-lg in Tailwind */
+  }
+  
+  input.placeholder-sm::placeholder {
+    font-size: 0.875rem; /* Equivalent to text-sm in Tailwind */
+  }
+
+  input.placeholder-md::placeholder {
+    font-size: 1rem; 
+  }
+

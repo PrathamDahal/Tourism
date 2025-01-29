@@ -1,0 +1,80 @@
+const Products = [
+    {
+      id: 1,
+      name: "Apple",
+      productImage: "/images/apple.jpg",
+      category: {
+        id: 1,
+        name: "Food",
+        categoryImage: "/images/food.jpg",
+      },
+      price: "1",
+      stocks: 100,
+      reviews: 4.2,
+      description: "Fresh and juicy apples.",
+      availability: "In Stock",
+    },
+    {
+      id: 2,
+      name: "Orange Juice",
+      productImage: "/images/orange-juice.jpg",
+      category: {
+        id: 2,
+        name: "Beverages",
+        categoryImage: "/images/beverages.jpg",
+      },
+      price: "3",
+      stocks: 50,
+      reviews: 4,
+      description: "Freshly squeezed orange juice.",
+      availability: "In Stock",
+    },
+    {
+      id: 3,
+      name: "Headphones",
+      productImage: "/images/headphones.jpg",
+      category: {
+        id: 3,
+        name: "Accessories",
+        categoryImage: "/images/accessories.jpg",
+      },
+      price: "25",
+      stocks: 20,
+      reviews: 3.5,
+      description: "Noise-cancelling over-ear headphones.",
+      availability: "Low Stock",
+    },
+    {
+      id: 4,
+      name: "T-Shirt",
+      productImage: "/images/tshirt.jpg",
+      category: {
+        id: 4,
+        name: "Clothing",
+        categoryImage: "/images/clothing.jpg",
+      },
+      price: "15",
+      stocks: 200,
+      reviews: 3.2,
+      description: "Comfortable cotton t-shirt.",
+      availability: "In Stock",
+    },
+    {
+      id: 5,
+      name: "Book",
+      productImage: "/images/book.jpg",
+      category: {
+        id: 5,
+        name: "Books",
+        categoryImage: "/images/books.jpg",
+      },
+      price: "10",
+      stocks: 75,
+      reviews: 4.9,
+      description: "Bestselling novel by a renowned author.",
+      availability: "In Stock",
+    },
+  ];
+  
+  export default Products;
+  
